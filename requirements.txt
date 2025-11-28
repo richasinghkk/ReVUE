@@ -11,3 +11,4 @@ transformers
 torch
 datasets
 sentence-transformers
+beautifulsoup4
