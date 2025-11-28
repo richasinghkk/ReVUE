@@ -12,3 +12,5 @@ torch
 datasets
 sentence-transformers
 beautifulsoup4
+SpeechRecognition
+pyaudio
