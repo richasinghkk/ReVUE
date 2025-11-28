@@ -6,7 +6,7 @@ import streamlit as st
 import joblib
 import requests
 from bs4 import BeautifulSoup
-import speech_recognition as sr
+#import speech_recognition as sr
 
 # Import scraper functions
 from src.scrapers.movie_scraper import search_movies, analyze_movie
