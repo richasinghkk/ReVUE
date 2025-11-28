@@ -302,22 +302,22 @@ with tab3:
 # =====================================================================================
 # 🎤 VOICE INPUT TAB
 # =====================================================================================
-with tab4:
-    if st.button("Record Voice Review"):
-        try:
-            r = sr.Recognizer()
-            with sr.Microphone() as mic:
-                st.info("🎙️ Listening...")
-                audio = r.listen(mic)
+# with tab4:
+#     if st.button("Record Voice Review"):
+#         try:
+#             r = sr.Recognizer()
+#             with sr.Microphone() as mic:
+#                 st.info("🎙️ Listening...")
+#                 audio = r.listen(mic)
 
-            text = r.recognize_google(audio)
-            st.success(f"You said: {text}")
+#             text = r.recognize_google(audio)
+#             st.success(f"You said: {text}")
 
-            label, prob, stars, advice = analyze_sentiment(text)
-            st.write(f"**{label}** — {advice} (Score: {prob:.2f})")
+#             label, prob, stars, advice = analyze_sentiment(text)
+#             st.write(f"**{label}** — {advice} (Score: {prob:.2f})")
 
-        except Exception:
-            st.error("Could not process voice input.")
+#         except Exception:
+#             st.error("Could not process voice input.")
 
 
-st.markdown("</div>", unsafe_allow_html=True)
+# st.markdown("</div>", unsafe_allow_html=True)
