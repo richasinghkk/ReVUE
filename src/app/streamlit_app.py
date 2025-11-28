@@ -112,7 +112,7 @@ def analyze_sentiment(text):
 # ----------------------------------
 st.markdown("<div class='glass'>", unsafe_allow_html=True)
 tab1, tab_imdb, tab2, tab3, tab4 = st.tabs(
-    ["✏️ Type Review", "🎞 IMDb Movie Analyzer", "📄 File Upload", "🔗 Paste URL", "🎤 Voice Input"]
+    ["✏️ Type Review", "🎞 IMDb Movie Analyzer", "📄 File Upload", "🔗 Paste URL"]
 )
 
 
